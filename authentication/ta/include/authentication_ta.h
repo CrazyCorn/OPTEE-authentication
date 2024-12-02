@@ -1,0 +1,10 @@
+#ifndef AUTHENTICATION_TA_H
+#define AUTHENTICATION_TA_H
+
+#define TA_AUTHENTICATION_UUID \
+    { 0x12345678, 0x8765, 0x4321, \
+        { 0x12, 0x34, 0x56, 0x78, 0x90, 0xab, 0xcd, 0xef } }
+
+#define TA_AUTHENTICATION_CMD_COMPARE_STRING 0
+
+#endif /* AUTHENTICATION_TA_H */
